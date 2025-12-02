@@ -98,8 +98,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Bottom fade */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-zinc-950 to-transparent" />
+        {/* Bottom fade - smoother transition */}
+        <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-zinc-950 via-zinc-950/50 to-transparent" />
       </header>
 
       {/* Who I Am */}
