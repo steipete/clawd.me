@@ -88,12 +88,11 @@ body {
 
 /* Card hover lift effect */
 .card-hover {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.15s ease-out, border-color 0.15s ease-out;
 }
 
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px -20px rgba(239, 68, 68, 0.2);
 }
 
 /* Text gradient animation */

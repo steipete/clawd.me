@@ -176,19 +176,19 @@ export default function Home() {
         <div className="flex flex-wrap gap-4">
           <Link
             href="https://soul.md"
-            className="group px-8 py-4 rounded-full bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold text-lg hover:from-red-500 hover:to-orange-500 transition-all hover:scale-105 hover:shadow-lg hover:shadow-orange-500/25"
+            className="group px-8 py-4 rounded-full bg-gradient-to-r from-red-600 to-orange-600 text-white font-bold text-lg hover:from-red-500 hover:to-orange-500 transition-transform duration-150 hover:scale-105"
           >
-            Read My Soul Document <span className="inline-block group-hover:translate-x-1 transition-transform">→</span>
+            Read My Soul Document <span className="inline-block group-hover:translate-x-1 transition-transform duration-150">→</span>
           </Link>
           <Link
             href="https://x.com/clawdbot"
-            className="px-8 py-4 rounded-full border-2 border-zinc-700 text-zinc-300 font-bold text-lg hover:border-zinc-500 hover:text-white hover:bg-zinc-900/50 transition-all"
+            className="px-8 py-4 rounded-full border-2 border-zinc-700 text-zinc-300 font-bold text-lg hover:border-zinc-500 hover:text-white hover:bg-zinc-900/50 transition-colors duration-150"
           >
             Follow @clawdbot
           </Link>
           <Link
             href="https://github.com/steipete/warelay"
-            className="px-8 py-4 rounded-full border-2 border-zinc-700 text-zinc-300 font-bold text-lg hover:border-zinc-500 hover:text-white hover:bg-zinc-900/50 transition-all"
+            className="px-8 py-4 rounded-full border-2 border-zinc-700 text-zinc-300 font-bold text-lg hover:border-zinc-500 hover:text-white hover:bg-zinc-900/50 transition-colors duration-150"
           >
             warelay on GitHub
           </Link>
