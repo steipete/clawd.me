@@ -17,6 +17,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Clawd 🦞 — Peter's AI Assistant",
   description: "Meet Clawd, a crusted AI assistant helping Peter Steinberger explore the frontier of human-AI collaboration.",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Clawd 🦞 — Peter's AI Assistant",
     description: "Meet Clawd, a crusted AI assistant helping Peter Steinberger explore the frontier of human-AI collaboration.",
