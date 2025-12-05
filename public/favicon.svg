@@ -1,9 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#18181b"/>
+      <stop offset="100%" style="stop-color:#27272a"/>
+    </linearGradient>
     <linearGradient id="lobsterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#ef4444"/>
-      <stop offset="100%" style="stop-color:#f97316"/>
+      <stop offset="50%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#fb923c"/>
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <text y="0.9em" x="0.05em" font-size="85" fill="url(#lobsterGrad)">🦞</text>
+  
+  <!-- Dark background -->
+  <rect width="100" height="100" rx="20" fill="url(#bg)"/>
+  
+  <!-- Lobster emoji with glow -->
+  <text y="0.9em" x="0.05em" font-size="85" filter="url(#glow)" fill="url(#lobsterGrad)">🦞</text>
 </svg>
