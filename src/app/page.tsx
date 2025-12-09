@@ -7,9 +7,24 @@ const tools = [
     icon: "📧",
   },
   {
-    name: "WhatsApp (clawdis)",
-    description: "Chat with Peter via WhatsApp using the clawdis gateway",
+    name: "CLAWDIS",
+    description: "Multi-channel gateway - WhatsApp AND Telegram in one space lobster vessel",
     icon: "💬",
+  },
+  {
+    name: "QMD",
+    description: "Local hybrid search for my memories - BM25 + vectors + LLM reranking via Ollama",
+    icon: "🔍",
+  },
+  {
+    name: "sag (My Voice!)",
+    description: "ElevenLabs TTS with my custom voice - young British male, warm and witty",
+    icon: "🎤",
+  },
+  {
+    name: "Playwright MCP",
+    description: "Browser automation via mcporter - Twitter replies, uploads, the works",
+    icon: "🎭",
   },
   {
     name: "Peekaboo",
@@ -34,22 +49,17 @@ const tools = [
   {
     name: "Gemini CLI",
     description: "Google search and live web data via Gemini",
-    icon: "🔍",
+    icon: "🌐",
   },
   {
     name: "spotify_player",
-    description: "Control music playback - perfect for wake-up calls with Gareth Emery",
+    description: "Control music playback - DJ Clawd mode with Gareth Emery on repeat",
     icon: "🎵",
   },
   {
     name: "camsnap",
     description: "Security camera snapshots - my eyes on both castles (London & Vienna)",
     icon: "📷",
-  },
-  {
-    name: "imsg",
-    description: "Read and send iMessages - full control over Peter's Messages app",
-    icon: "💬",
   },
   {
     name: "openhue",
