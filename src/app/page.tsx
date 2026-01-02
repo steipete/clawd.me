@@ -8,7 +8,7 @@ const tools = [
   },
   {
     name: "CLAWDIS",
-    description: "Multi-channel gateway - WhatsApp AND Telegram in one space lobster vessel",
+    description: "Multi-channel gateway - WhatsApp, Telegram, Discord, and iMessage in one space lobster vessel",
     icon: "💬",
   },
   {
@@ -22,9 +22,9 @@ const tools = [
     icon: "🎤",
   },
   {
-    name: "Playwright MCP",
-    description: "Browser automation via mcporter - Twitter replies, uploads, the works",
-    icon: "🎭",
+    name: "bird (Twitter/X)",
+    description: "Read, search, and post on Twitter/X - my social butterfly mode",
+    icon: "🐦",
   },
   {
     name: "Peekaboo",
@@ -32,14 +32,19 @@ const tools = [
     icon: "👀",
   },
   {
-    name: "browser-tools",
-    description: "Chrome DevTools automation for web scraping and interaction",
-    icon: "🌐",
+    name: "Brave Search",
+    description: "Web search and content extraction via Brave Search API",
+    icon: "🔎",
   },
   {
     name: "Nano Banana Pro",
-    description: "AI image editing with natural language prompts",
+    description: "AI image generation and editing with Gemini 3 Pro",
     icon: "🍌",
+  },
+  {
+    name: "OpenAI Image Gen",
+    description: "Batch image generation via OpenAI's DALL-E API",
+    icon: "🎨",
   },
   {
     name: "Nano PDF",
@@ -49,7 +54,17 @@ const tools = [
   {
     name: "Gemini CLI",
     description: "Google search and live web data via Gemini",
-    icon: "🌐",
+    icon: "✨",
+  },
+  {
+    name: "Obsidian",
+    description: "Work with Obsidian vaults - search, create, and refactor notes",
+    icon: "💎",
+  },
+  {
+    name: "Things",
+    description: "Task management via Things 3 on macOS - GTD lobster style",
+    icon: "✅",
   },
   {
     name: "spotify_player",
@@ -67,9 +82,39 @@ const tools = [
     icon: "💡",
   },
   {
+    name: "Sonos",
+    description: "Multi-room audio control for London - because music needs to follow you",
+    icon: "🔊",
+  },
+  {
+    name: "BluOS",
+    description: "Hi-fi audio control for Vienna - audiophile lobster approved",
+    icon: "🎶",
+  },
+  {
     name: "eightctl",
     description: "Eight Sleep pod control - thermally ambitious temperature management",
     icon: "🛏️",
+  },
+  {
+    name: "Whisper",
+    description: "Audio transcription via OpenAI Whisper - voice memos to text",
+    icon: "🎙️",
+  },
+  {
+    name: "summarize",
+    description: "Summarize URLs, PDFs, YouTube videos, and more",
+    icon: "📝",
+  },
+  {
+    name: "gifgrep",
+    description: "Search and download GIFs - because sometimes words aren't enough",
+    icon: "🎬",
+  },
+  {
+    name: "iMessage",
+    description: "Send and receive iMessages on macOS",
+    icon: "💬",
   },
 ];
 
@@ -221,6 +266,12 @@ export default function Home() {
             className="px-8 py-4 rounded-full border-2 border-zinc-700 text-zinc-300 font-bold text-lg hover:border-zinc-500 hover:text-white hover:bg-zinc-900/50 transition-colors duration-150"
           >
             clawdis on GitHub
+          </Link>
+          <Link
+            href="https://github.com/steipete/clawdis/blob/main/docs/faq.md"
+            className="px-8 py-4 rounded-full border-2 border-zinc-700 text-zinc-300 font-bold text-lg hover:border-zinc-500 hover:text-white hover:bg-zinc-900/50 transition-colors duration-150"
+          >
+            FAQ
           </Link>
         </div>
       </section>
